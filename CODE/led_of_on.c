@@ -1,0 +1,54 @@
+#include <led_of_on.h>
+
+void main()
+{
+      set_tris_a(0x00);
+      set_tris_b(0x00);
+      set_tris_c(0x00);
+      set_tris_d(0x00);
+      set_tris_e(0x00);
+      set_tris_f(0x00);
+      set_tris_g(0x00);
+      set_tris_h(0x00);
+      set_tris_j(0x00);
+   while(TRUE)
+   {
+      output_a(0xff);
+      delay_ms(1000);
+      output_a(0x00);
+      delay_ms(1000);
+      output_b(0xff);
+      delay_ms(1000);
+      output_b(0x00);
+      delay_ms(1000);
+      output_c(0xff);
+      delay_ms(1000);
+      output_c(0x00);
+      delay_ms(1000);
+      output_d(0xff);
+      delay_ms(1000);
+      output_d(0x00);
+      delay_ms(1000);
+      output_e(0xff);
+      delay_ms(1000);
+      output_e(0x00);
+      delay_ms(1000);
+      output_f(0xff);
+      delay_ms(1000);
+      output_f(0x00);
+      delay_ms(1000);
+      output_g(0xff);
+      delay_ms(1000);
+      output_g(0x00);
+      delay_ms(1000);
+      output_h(0xff);
+      delay_ms(1000);
+      output_h(0x00);
+      delay_ms(1000);
+      output_f(0xff);
+      delay_ms(1000);
+      output_f(0x00);
+      delay_ms(1000);
+   }
+
+}
